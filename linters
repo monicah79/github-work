@@ -56,4 +56,4 @@ case $1 in
   exit 1
 esac
 
-compare "$1" "${config_files[@]}"
+compare "$1" "${config_files[@]}" 
